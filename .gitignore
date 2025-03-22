@@ -1,0 +1,76 @@
+# Ignore build outputs
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# Visual Studio Code
+.vscode/
+
+# ASP.NET Core
+appsettings*.json
+!appsettings.json
+!appsettings.Development.json
+
+# Node.js (for React.js in the future)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Dependency directories
+.DS_Store
+dist/
+build/
+
+# Generated files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+*.csproj.user
+*.db
+*.sqlite
+*.sqlite3
+
+# Static web assets
+wwwroot/
+
+
+
+
+
+
+## Project StructureReactivities is a full-stack application built with ASP.NET Core for the backend and React.js for the frontend (to be added in the future).# Reactivities
+### Backend
+- **API**: ASP.NET Core Web API project.
+- **Application**: Contains business logic.
+- **Domain**: Contains domain models.
+- **Persistence**: Handles database access.
+
+### Frontend
+- React.js (to be added).
+
+## Prerequisites
+
+- [.NET SDK](https://dotnet.microsoft.com/download)
+- [Node.js](https://nodejs.org/) (for React.js in the future)
+
+## Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-repo/reactivities.git
+   cd reactivities
