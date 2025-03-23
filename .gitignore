@@ -17,7 +17,6 @@ obj/
 # ASP.NET Core
 appsettings*.json
 !appsettings.json
-!appsettings.Development.json
 
 # Node.js (for React.js in the future)
 node_modules/
@@ -74,3 +73,5 @@ wwwroot/
    ```bash
    git clone https://github.com/your-repo/reactivities.git
    cd reactivities
+API/reactivities.db-shm
+API/reactivities.db-wal
