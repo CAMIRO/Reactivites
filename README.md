@@ -14,6 +14,7 @@ API/
 Application/
 Domain/
 Persistence/
+client/ (to be added for React.js frontend)
 ```
 
 ### Backend
@@ -23,14 +24,16 @@ Persistence/
 - **Persistence**: Handles database access.
 
 ### Frontend
-- React.js (to be added).
+- **React.js**: (to be added).
 
 ## Prerequisites
 
-- [.NET SDK](https://dotnet.microsoft.com/download)
-- [Node.js](https://nodejs.org/) (for React.js in the future)
+- [.NET SDK](https://dotnet.microsoft.com/download) (for the backend)
+- [Node.js](https://nodejs.org/) (for the React.js frontend)
 
 ## Getting Started
+
+### Backend Setup
 
 1. Clone the repository:
    ```bash
@@ -38,21 +41,53 @@ Persistence/
    cd reactivities
    ```
 
-2. Build and run the backend:
+2. Navigate to the `API` directory:
    ```bash
    cd API
+   ```
+
+3. Run the backend:
+   ```bash
    dotnet run
    ```
 
-3. Build and run the frontend:
+### Frontend Setup (React.js)
+
+1. Navigate to the `client` directory (to be added in the future):
    ```bash
    cd client
+   ```
+
+2. Install dependencies:
+   ```bash
    npm install
+   ```
+
+3. Start the React development server:
+   ```bash
    npm start
    ```
 
-4. Open the browser and navigate to `http://localhost:3000/` to view the application.
+4. Open your browser and navigate to:
+   ```
+   http://localhost:3000/
+   ```
+
+## Features
+
+- **Backend**:
+  - RESTful API built with ASP.NET Core.
+  - Database integration using Entity Framework Core with SQLite.
+  - Automatic database migrations and seeding.
+
+- **Frontend** (to be added):
+  - React.js for building a responsive and interactive user interface.
+  - State management using Redux or Context API (planned).
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and submit a pull request.
